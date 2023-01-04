@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #bdcbda;
+}
+
+header {
+    background-color: #233242;
+    height: 100px;
+    overflow: hidden;
+}
+
+header h1 {
+    position: relative;
+    color: #e0e3e7;
+    font-size: 6rem;
+    top: 1rem;
+    left: 1.5rem;
+}
+
+header ul li{
+    position: relative;
+    top: -4rem;
+    right: 1rem;
+    font-size: 2.6rem;
+    margin-right: 2rem;
+    display: inline;
+    float: right;
+}
+
+header ul li a {
+    color: #e0e3e7;
+}
+
+#Banner {
+    position: relative;
+    top: 10rem;
+    height: 200px;
+    background-color: #30455c;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+#Banner h2 {
+    position: relative;
+    top: 3rem;
+    color: #e0e3e7;
+    margin-bottom: 1rem;
+    font-size: 40px;
+}
+
+#Banner p {
+    position: relative;
+    top: 4rem;
+    color: #e0e3e7;
+    font-size: 30px;
+}
+
+#Products {
+    display: flex;
+    width: 100%;
+}
+
+#Products-section h2 {
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    color: #2e3d4c;
+    margin-bottom: 2rem;
+    font-size: 40px;
+}
+
+#Products div {
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+    background-color: #a7a7a7;
+    width: 23rem;
+    margin: 5rem 5.5rem;
+    border-radius: 1rem;
+}
+
+#Products div img {
+    height: 30rem;
+}
+
+#Products div h3 {
+    font-size: 30px;
+    color: #575757;
+}
+
+#Partners {
+    margin-top: 1rem;
+    background-color: #6b7682;
+    height: 500px;
+    text-align: center;
+}
+
+#Partners h2 {
+    position: relative;
+    top: 2rem;
+    color: #e0e3e7;
+    margin-bottom: 1rem;
+    font-size: 40px;
+}
+
+#Partners p {
+    color: #e0e3e7;
+    font-size: 30px;
+}
+
+#PartImgs {
+    display: flex;
+    margin-left: 50rem;
+}
+
+#Partners img {
+    height: 30rem;
+}
+
+footer {
+    background-color: black;
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+}
+
+#Copy {
+    position: relative;
+    top: 0.1rem;
+    left: 0.5rem;
+    color: #e0e3e7;
+    font-size: 35px;
+    margin-right: 5rem;
+}
+
+#Email {
+    position: relative;
+    top: 0.8rem;
+    color: #e0e3e7;
+    font-size: 20px;
+    margin-right: 2.5rem;
+}
+
+#Number {
+    position: relative;
+    top: 0.8rem;
+    color: #e0e3e7;
+    font-size: 20px;
+    margin-right: 104rem;
+}
+
+#GTP a {
+    color: #e0e3e7;
+    font-size: 30px;
+}
